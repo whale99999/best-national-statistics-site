@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nihon Statistical Atlas — Japan in Numbers</title>
+  <meta name="description" content="An independent national statistics site for Japan: population, economy, regions, work and prices, every figure sourced and dated. Works offline.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true">日</span>
+        <span class="brand-text">
+          <strong>Nihon Statistical Atlas</strong>
+          <small>Japan in numbers · 日本の統計</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Sections">
+        <a href="#/" data-nav="overview">Overview</a>
+        <a href="#/population" data-nav="population">Population</a>
+        <a href="#/economy" data-nav="economy">Economy</a>
+        <a href="#/regions" data-nav="regions">Regions</a>
+        <a href="#/work" data-nav="work">Work</a>
+        <a href="#/prices" data-nav="prices">Prices</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="view" class="wrap" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Nihon Statistical Atlas</strong> is an independent, unofficial statistics site.
+      It is not affiliated with the Statistics Bureau of Japan or any government body.</p>
+      <p>Every figure names its source and year. Figures are rounded for display; see each
+      section's source line for the exact publication. This site works fully offline:
+      it makes no network requests and stores nothing on your device.</p>
+      <p class="footer-meta">Built November 2026 · All data as published by the sources cited</p>
+    </div>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
